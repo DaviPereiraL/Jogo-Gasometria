@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Gasometria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jogo de Gasometria</h1>
+    
+    <button id="start-btn">Start</button>
+
+    <div id="question-container" class="hidden">
+        
+        <div>
+            <div id="question"></div>
+            <ul id="answers">
+                <li><button class="answer-btn" data-answer="A">A) </button></li>
+                <li><button class="answer-btn" data-answer="B">B) </button></li>
+                <li><button class="answer-btn" data-answer="C">C) </button></li>
+                <li><button class="answer-btn" data-answer="D">D) </button></li>
+            </ul>
+        </div>
+
+        <div id="score-table">
+            <table>
+                <tr>
+                    <th>Acertos</th>
+                    <th>Erros</th>
+                </tr>
+                <tr>
+                    <td id="correct-count">0</td>
+                    <td id="wrong-count">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

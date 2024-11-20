@@ -37,7 +37,7 @@ Para rodar o projeto, você precisa apenas de um navegador moderno. Não há nec
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/gasometria-quiz-game.git
+   git clone https://github.com/DaviPereiraL/Jogo-Gasometria.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
